@@ -1,0 +1,192 @@
+@charset "UTF-8";
+
+html {
+	background-color: #f5f5f5;
+}
+
+.tituloListado {
+	color: white;
+	background-color: #333;
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 4px;
+}
+
+.tituloFormulario {
+	color: white;
+	background-color: #333;
+	width: 34.5%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 4px;
+}
+
+.tituloDetalle {
+	color: white;
+	background-color: #333;
+	width: 35%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 4px;
+}
+
+#botonera {
+	margin-top: 0.5%;
+	margin-bottom: 5%;
+	height: 25px
+}
+
+#contenedor {
+	margin: auto;
+	text-align: center;
+}
+
+table {
+	margin: auto;
+	background-color: white;
+}
+
+table {
+	border-collapse: collapse;
+	width: 95%;
+}
+
+th {
+	
+	background-color: #b3b3b3;
+	padding: 8px;
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+}
+
+td {
+	padding: 8px;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+	background-color: #f5f5f5;
+}
+
+.fieldsetPrincipal {
+	background-color: #efeff5;
+	width: 500px;
+	text-align: left;
+	margin: auto;
+}
+
+body {
+	margin: auto;
+}
+
+ul {
+	width: 99.5%;
+	list-style-type: none;
+	margin: auto;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	border-radius: 4px;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: white;
+	color: black;
+}
+
+.cajaTexto {
+	
+	width: 350px;
+}
+
+.selectLibros {
+	width: 350px;
+}
+
+.botonVer {
+	
+	background-color: #333;
+	text-align: center;
+	padding: 3px;
+	font-size: 18px;
+	border-radius: 3px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+}
+
+.botonLibro {
+	
+	
+	margin-left: 77%;
+	width: 100px;
+	background-color: #333;
+	text-align: center;
+	padding: 3px;
+	font-size: 18px;
+	border-radius: 3px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+}
+
+.botonBorrar {
+	
+	background-color: #333;
+	text-align: center;
+	padding: 3px;
+	font-size: 18px;
+	border-radius: 3px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+}
+
+.botonText {
+	color: white;
+	text-decoration: none;
+	display: block;
+}
+
+.piePagina {
+	width: 98.5%;
+	color: white;
+	background-color: #333;
+	margin: auto;
+	text-align: center;
+	padding: 8px;
+	border-radius: 4px;
+}
+
+.contenedor2 {
+	
+	margin-top: 2%;
+	margin-bottom: 1%;
+}
+
+legend {
+	
+	font-weight: bolder;
+}
+
+.titulos {
+	
+	color: black; 
+	text-decoration: none;
+	display:block;
+}
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	version="2.5">
+	<display-name>webMaven001</display-name>
+	<welcome-file-list>
+		<welcome-file>./vistas/index.jsp</welcome-file>
+	</welcome-file-list>
+	<servlet>
+		<description></description>
+		<display-name>ServletFrontController</display-name>
+		<servlet-name>ServletFrontController</servlet-name>
+		<servlet-class>es.avalon.web.controllers.ServletFrontController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ServletFrontController</servlet-name>
+		<url-pattern>/ServletFrontController</url-pattern>
+	</servlet-mapping>
+	
+	<error-page>
+  <exception-type>java.lang.RuntimeException</exception-type>
+  <location>/error.jsp</location>
+  </error-page>
+</web-app>
